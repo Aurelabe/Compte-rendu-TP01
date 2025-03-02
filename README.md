@@ -629,7 +629,7 @@ force_local_data_ssl=YES
 force_local_logins_ssl=YES
 ```
 
-### 3. Commandes à inclure dans le compte rendu
+### 3. Commandes exécutées
 ```bash
 firewall-cmd --list-services
 systemctl status vsftpd
