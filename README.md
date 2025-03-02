@@ -19,7 +19,7 @@ firewall-cmd --list-sources
 ### 1. Objectif
 Renforcer la politique de mots de passe pour améliorer la sécurité des comptes utilisateurs.
 
-### 2. Fichier de configuration
+### 2. Fichiers de configurations demandés
 La politique de mot de passe est définie dans les fichiers suivants :
 - `/etc/security/pwquality.conf`
 
@@ -134,11 +134,10 @@ session     required      pam_unix.so
 ### 1. Objectif
 Sécuriser l'accès SSH afin de limiter les risques d'attaques externes.
 
-### 2. Fichier de configuration à mentionner dans le compte rendu
+### 2. Fichier de configurations demandé
 Le fichier concerné est :
 - `/etc/ssh/sshd_config`
 
-Extrait des modifications appliquées :
 ```ini
 #       $OpenBSD: sshd_config,v 1.104 2021/07/02 05:11:21 dtucker Exp $
 
@@ -287,7 +286,7 @@ MACs hmac-sha2-512,hmac-sha2-256
 AllowUsers it4 aurel
 ```
 
-### 3. Commandes demandées pour le compte rendu
+### 3. Commandes exécutées
 ```bash
 firewall-cmd --list-ports
 systemctl status sshd
