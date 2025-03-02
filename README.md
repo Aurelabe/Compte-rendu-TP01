@@ -20,7 +20,7 @@ firewall-cmd --list-sources
 Renforcer la politique de mots de passe pour améliorer la sécurité des comptes utilisateurs.
 
 ### 2. Fichier de configuration
-La politique de mot de passe est définie dans le fichier suivant :
+La politique de mot de passe est définie dans les fichiers suivants :
 - `/etc/security/pwquality.conf`
 
 ```ini
