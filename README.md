@@ -302,19 +302,23 @@ Gérer les utilisateurs et leurs permissions pour un accès sécurisé aux resso
 ```bash
 sudo ls -al /data/
 ```
-
+![Capture d'écran 2025-03-02 034110](https://github.com/user-attachments/assets/be03eb57-c96d-41ed-9f8a-bffd69f2906b)
 
 ```bash
 sudo ls -ld /data/projects
 ```
+![Capture d'écran 2025-03-02 034131](https://github.com/user-attachments/assets/e75fff95-31ff-4b9b-b741-053acc0548ce)
 
 ```bash
 sudo getfacl /data/projects
 ```
+![Capture d'écran 2025-03-02 034207](https://github.com/user-attachments/assets/e521aa04-2986-4e40-8a51-bb855102ce3f)
 
 ```bash
 sudo lsattr /data/projects
 ```
+![Capture d'écran 2025-03-02 034234](https://github.com/user-attachments/assets/f59a1810-46c8-4e7e-8837-4f95e9295dbc)
+
 
 ### 3. Fichier de configuration sudo
  
