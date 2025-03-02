@@ -8,10 +8,10 @@ L'objectif de cette partie est de configurer un pare-feu restrictif en utilisant
 ### 2. Commandes demandées pour le compte rendu
 Seules les commandes `firewall-cmd --list-xxx` doivent être mentionnées pour montrer l'état du firewall après configuration :
 ```bash
-firewall-cmd --list-all
-firewall-cmd --list-services
-firewall-cmd --list-ports
-firewall-cmd --list-sources
+sudo firewall-cmd --list-all
+sudo firewall-cmd --list-services
+sudo firewall-cmd --list-ports
+sudo firewall-cmd --list-sources
 ```
 
 ## Part II : Configuration PAM
