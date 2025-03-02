@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b4f53f4c-757f-41c1-a277-244fb00896e2)# Compte Rendu de Configuration Sécurisée sous Rocky Linux
+# Compte Rendu de Configuration Sécurisée sous Rocky Linux
 
 ## Part I : Filtrage des paquets
 
